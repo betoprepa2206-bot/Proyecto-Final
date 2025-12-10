@@ -1,0 +1,64 @@
+# Proyecto-Final
+Juego del Gato
+Manual de Usuario – Juego del Gato
+
+Este programa permite jugar el clásico Juego del Gato contra una computadora, donde el usuario juega con X y la computadora juega con O y el juego finaliza cuando alguno de los dos gane o cuando ya no quedan espacios disponibles (empate).
+
+Cómo iniciar el juego
+Al ejecutar el programa, aparecerá el tablero vacío con una cuadrícula de 3×3:
+
+        0         1	       2      <-- 	Columnas
+0  	         |	      | 	      -->Fila
+    -------------------------- 
+1 	         |  	  | 	      -->Fila
+    -------------------------- 
+2  	         |   	  | 	      -->Fila
+
+Los números 0, 1 y 2 indican las posiciones de filas y columnas que usarás para realizar tus movimientos.
+
+Cómo jugar
+El usuario siempre inicia jugando con X.
+Paso 1: Elegir una fila, el programa pedirá:
+Ingresa la fila (0-2):
+Introduce un número válido entre 0 y 2.
+
+Paso 2: Elegir una columna, luego pedirá:
+Ingresa la columna (0-2):
+Introduce nuevamente un número entre 0 y 2.
+
+
+
+Validaciones automáticas
+Si ingresas un valor incorrecto, el programa mostrará mensajes como:
+- Entrada inválida.
+- Movimiento fuera del rango.
+- Ese espacio ya está ocupado.
+Y te pedirá intentar otra vez.
+
+Turno de la computadora
+Después de que el jugador coloca su X, la computadora elige una casilla vacía 
+aleatoriamente para poner su O.
+
+Cómo se determina el ganador
+El programa verifica automáticamente:
+- Filas completas
+- Columnas completas
+- Diagonales completas
+
+Si el usuario logra completar una línea de 3 X entonces mostrara: Ganaste.
+Si la computadora logra completar una línea de 3 O entonces mostrara: Perdiste.
+Si todas las casillas se llenan y nadie ha Ganado entonces mostrara: Empate.
+
+Fin del juego
+El programa termina automáticamente cuando:
+- Gana el usuario
+- Gana la computadora
+- No quedan espacios (empate)
+
+Para volver a jugar, simplemente ejecuta el programa nuevamente.
+
+
+
+Integrantes:
+Erika Yamileth Morales Guevara. 
+Jesús Alberto González Salazar.
